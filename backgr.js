@@ -1,3 +1,8 @@
+const button0 = document.getElementById('butn0');
+button0.addEventListener('click', function() {
+  const body = document.querySelector('body');
+  body.style.backgroundImage = 'url(back/iguazu.jpg)';
+});
 const button1 = document.getElementById('butn1');
 button1.addEventListener('click', function() {
   const body = document.querySelector('body');

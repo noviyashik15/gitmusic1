@@ -6,10 +6,7 @@
   justify-content: space-between;
   align-items: flex-start;  /* align-items: start !important; */
 } 
-.btn{
-  justify-content: space-between;
-
-}
+#butn0{ color: red;}
 .victor{ 
   display: block;
   margin-top: 26rem;
@@ -43,11 +40,12 @@ body {  background-image: url(back/iguazu.jpg);
   opacity: 0.85;
   align-items: center;
   position: absolute;
-  background-color: #99c39c;
+  /* background-color: #99c39c; */
   width: 400px;
   height: 160px;
   border-radius: 1rem;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border: 3px solid gray;
+  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
 }
 h2 {
   font-size: 1.2rem;
