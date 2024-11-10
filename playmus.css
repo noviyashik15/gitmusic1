@@ -6,14 +6,27 @@
   justify-content: space-between;
   align-items: flex-start;  /* align-items: start !important; */
 } 
-#butn0{ color: red;}
+/* #butn0{ color: red;} */
 .victor{ 
   display: block;
-  margin-top: 26rem;
-  /* opacity: 0.95; */
+  margin-top: 26rem;  /* opacity: 0.95; */
   align-items: center;
   position: absolute;
 }
+.victor1{ 
+  display: block;
+  margin-top: 4rem;  /* opacity: 0.95; */
+  align-items: center;
+  position: absolute;
+}
+button { background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1; color: red;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+button:hover{color: white;}
 body {  background-image: url(back/iguazu.jpg);
   /* background: radial-gradient(rgb(55, 255, 0), blue); */
   min-height: 100vh;
