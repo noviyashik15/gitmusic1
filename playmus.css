@@ -7,12 +7,12 @@
   align-items: flex-start;  /* align-items: start !important; */
 } 
 /* #butn0{ color: red;} */
-.victor{ 
+/* .victor{ 
   display: block;
-  margin-top: 26rem;  /* opacity: 0.95; */
+  margin-top: 26rem;  
   align-items: center;
   position: absolute;
-}
+} */
 .victor1{ 
   display: block;
   margin-top: 4rem;  /* opacity: 0.95; */
@@ -49,16 +49,29 @@ body {  background-image: url(back/iguazu.jpg);
 }
 .container {  
   display: block;
-  margin-top: 10rem; color: white;
-  opacity: 0.85;
+  margin-top: 7.2rem; color: white;
+  opacity: 0.75;
   align-items: center;
   position: absolute;
   /* background-color: #99c39c; */
-  width: 400px;
+  width: 500px;
   height: 160px;
   border-radius: 1rem;
   border: 3px solid gray;
   /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
+}
+.containerop {  
+  display: block;
+  margin-top: 20rem; color: white;
+  font-size: 1.25rem;
+  opacity: 0.85; text-align: center;
+  align-items: center;
+  position: absolute;
+  /* background-color: #99c39c; */
+  width: 660px;
+  height: 420px;
+  border: 3px solid rgb(186, 198, 236);
+  border-radius: 1rem;
 }
 h2 {
   font-size: 1.2rem;
@@ -109,6 +122,6 @@ h2 {
 }
 
 #zaonpp{position: absolute; z-index: 3;
-padding-left: 9.5rem; padding-top: 5rem;
+padding-left: 12.1rem; padding-top: 5rem;
 }
 p{color: #fff;}
