@@ -13,15 +13,19 @@
   }
   /* .vnizuspan{ text-align: center; font-size: .8rem;} */
 
-.butnfon{ display: flex; 
-  padding-left: 3rem; padding-top: 1.8rem;
-  font-size: medium; color: red; margin-left: -4rem;
-  justify-content: space-between;
-  align-items: flex-start;  /* align-items: start !important; */
+.butnfon{ display: block; 
+  padding-top: 1.7rem;
+  font-size: medium; color: red;
+  position: absolute;
 } 
+.butnfon1{ display: block; z-index: 4; 
+    margin-top: 3.4rem; 
+    align-items: center;
+    position: absolute;
+}
 .victor1{ 
   display: block;
-  margin-top: 4rem;  /* opacity: 0.95; */
+  margin-top: 5.4rem;  /* opacity: 0.95; */
   align-items: center;
   position: absolute;
 }
