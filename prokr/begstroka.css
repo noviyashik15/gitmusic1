@@ -1,0 +1,30 @@
+.ticker { background-color: rgb(204, 243, 243);
+  color: #000;
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+  width: 496px;
+  text-align: center;
+  border: dashed 1px gray;
+  border-radius: 12px;
+  margin-top: -28px;
+}
+.ticker__wrapper {
+  display: inline-flex;
+}
+.ticker__item { 
+font-family: sans-serif;  
+font-size: 19px;  
+white-space: nowrap;
+flex-shrink: 0;
+padding: 0 3px;
+animation: ticker 25s linear infinite;
+}
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}

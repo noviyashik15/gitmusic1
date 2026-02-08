@@ -131,7 +131,8 @@ h2 {
   font-size: 44px;
 }
 
-#zaonpp{position: absolute; z-index: 3;
+#doptxt{text-align: center;}
+/* #zaonpp{position: absolute; z-index: 3;
 padding-left: 12.4rem; padding-top: 5rem;
-}
+} */
 p{color: #fff;}
