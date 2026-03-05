@@ -1,17 +1,17 @@
 *{ padding: 0; margin: 0; box-sizing: border-box; }
 #otklvse{ display: block; 
-  position: absolute;
-  opacity: 0;
-  background-color: white;
-  border: none;
-  cursor: pointer;
-  transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-  #otklvse:hover {
-      opacity: 1;
-      color: black;
-  }
-  /* .vnizuspan{ text-align: center; font-size: .8rem;} */
+position: absolute;
+opacity: 0;
+background-color: white;
+border: none;
+cursor: pointer;
+transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+#otklvse:hover {
+    opacity: 1;
+    color: black;
+}
+/* .vnizuspan{ text-align: center; font-size: .8rem;} */
 button{ border: 1px dashed #2a1f34; border-radius: 10px; }
 .butnfon{ display: block; 
   padding-top: 1.7rem;
@@ -62,9 +62,8 @@ body {  background-image: url(back/iguazu_.jpg);
   margin-top: 7.2rem; color: white;
   opacity: 0.75;
   align-items: center;
-  position: absolute;
-  /* background-color: #99c39c; */
-  width: 500px;
+  position: absolute;  /* background-color: #99c39c; */
+  width: 660px;
   height: 160px;
   border-radius: 1rem;
   border: 3px solid gray;
